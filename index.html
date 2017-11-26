@@ -40,8 +40,8 @@
     </nav>
     <main role="main" class="container">
         <div class="row">
-            <div id="consoleWrapper" class="col-12 col-md-6">
-                <ul id="console"></ul>
+            <div id="terminalWrapper" class="col-12 col-md-6">
+                <ul id="terminal"></ul>
             </div>
             <div class="col-8 col-md-4">
                 <h4><a id="guildname" href="#">Unnamed</a> Guild,<br/><small>City of <a id="cityname" href="#">Pallet</a></small></h4>
@@ -108,20 +108,25 @@
                 </ul>
             </div>
             <div class="col-4 col-md-2 text-right">
-                <a id="btnTest" class="btn btn-primary btn-sm btn-block" href="#" style="font-size:xx-small;">
-                    ABCDEFGHIJKL<br/>
-                    Test<br/>
-                    123456789012345<br/>
-                    <div class="progress" style="height: 5px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </a>
+                <ul id="buttons">
+                    <li>
+                        <a id="btnTest" class="btn btn-primary btn-sm btn-block" href="#" style="font-size:xx-small;">
+                            ABCDEFGHIJKL<br/>
+                            Test<br/>
+                            123456789012345<br/>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="game/terminal.js"></script>
     <script src="game/engine.js"></script>
   </body>
 </html>

@@ -50,37 +50,37 @@ body {
     width: 32px;
     height: 32px;
 }
-#consoleWrapper {
+#terminalWrapper {
     max-height: 200px;
     overflow: auto;
 }
 @media (min-width: 768px) {
-    #consoleWrapper {
+    #terminalWrapper {
         max-height: initial;
     }
 }
-#console {
+#terminal {
     font-family: 'Julee';
     font-size: large;
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
-#console li {
+#terminal li {
     padding-left: 1em;
     text-indent: -1em;
 }
-#console li:before {
+#terminal li:before {
     content: "~";
     padding-right: 2px;
 }
-#treasury, #armory, #guildmates, .guildmate {
+#buttons, #treasury, #armory, #guildmates, .guildmate {
     list-style: none;
     margin: 0;
     padding: 0;
     display:inline;
 }
-#treasury li, #armory li, .guildmate li {
+#buttons li, #treasury li, #armory li, .guildmate li {
     display:inline;
 }
 .status {
