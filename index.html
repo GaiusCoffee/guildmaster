@@ -6,58 +6,56 @@
     <meta name="description" content="Spaceplan and A Dark Room inspired guild of adventurers game.">
     <meta name="author" content="GaiusCoffee">
     <link rel="icon" href="favicon.ico">
-    <title>Project Suiko</title>
+    <title>Guildmaster</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            padding-top: 5rem;
-        }
-        .starter-template {
-            padding: 3rem 1.5rem;
-            text-align: center;
-        }
-    </style>
+    <link href="css/index.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="https://gaius.coffee/guildmaster">Guildmaster</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://gaius.coffee/guildmaster">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="https://github.com/GaiusCoffee/guildmaster/issues">Issues</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="https://github.com/GaiusCoffee/guildmaster/wiki">Wiki</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/GaiusCoffee/guildmaster">About</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
     <main role="main" class="container">
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
+        <div class="row">
+            <div id="consoleWrapper" class="col-12 col-md-6">
+                <ul id="console"></ul>
+            </div>
+            <div class="col-8 col-md-4">
+                <h4>Unnamed Guild, <small>City of Pallet</small></h4>
+            </div>
+            <div class="col-4 col-md-2 text-right">
+                <a id="btnTest" class="btn btn-primary btn-sm btn-block" href="#" style="font-size:xx-small;">
+                    ABCDEFGHIJKL<br/>
+                    Test<br/>
+                    123456789012345<br/>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
     <script src="js/popper.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="game/engine.js"></script>
   </body>
 </html>

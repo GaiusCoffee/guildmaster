@@ -1,1 +1,1 @@
-gulp && http-server
+yarn install && gulp && http-server
