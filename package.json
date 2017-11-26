@@ -1,0 +1,17 @@
+{
+  "name": "ProjectSuiko",
+  "version": "1.0.0",
+  "description": "Spaceplan and A Dark Room inspired guild of adventurers game.",
+  "main": "index.html",
+  "author": "GaiusCoffee",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
