@@ -10,6 +10,17 @@
             "group": "build",
             "isBackground": true,
             "problemMatcher": []
+        },
+        {
+            "label": "Serve Site",
+            "type": "shell",
+            "command": "http-server",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "isBackground": true,
+            "problemMatcher": []
         }
     ]
 }
