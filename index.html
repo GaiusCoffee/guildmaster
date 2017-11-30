@@ -51,7 +51,7 @@
             <div class="col-8 col-md-4">
                 <h4><a id="guildname" href="#">Unnamed</a> Guild,<br/><small>City of <a id="cityname" href="#">Pallet</a></small></h4>
                 <hr/>
-                <h5>Treasury <small>(For Trade)</small></h5>
+                <h5 id="treasuryLabel">Treasury <small>(For Trade)</small></h5>
                 <ul id="treasury">
                     <li><strong>1</strong>x
                         <a href="#" title="Silver Pieces">
@@ -64,7 +64,7 @@
                         </a>
                     </li>
                 </ul>
-                <h5>Armory <small>(For Guild Use)</small></h5>
+                <h5 id="armoryLabel">Armory <small>(For Guild Use)</small></h5>
                 <ul id="armory">
                     <li><strong>1</strong>x
                         <a href="#" title="Plain Dagger">
@@ -72,7 +72,7 @@
                         </a>
                     </li>
                 </ul>
-                <h5>Guild Members</h5>
+                <h5 id="guildmatesLabel">Guild Members</h5>
                 <ul id="guildmates">
                     <li class="card">
                         <div class="card-body">
@@ -132,6 +132,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="game/terminal.js"></script>
+    <script src="game/city.js"></script>
+    <script src="game/gameState.js"></script>
     <script src="game/engine.js"></script>
   </body>
 </html>

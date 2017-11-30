@@ -1,15 +1,15 @@
 class engine {
     constructor(){
+        // UI
         this.t = new terminal();
         // Test Button
         $("#btnTest").click(() => {this.t.log("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")});
-        // Check if there's a save file
-        if (localStorage.getItem("gameState")){
-            this.gameState = localStorage.getItem("gameState");
-        } else {
-            this.gameState = {};
-        }
-        // Start Game Loop
+        // Gamedata
+        this.c = new city();
+        this.s = new gameState();
+        // TODO: Start Game Loop
+        // 
+        this.s.updateView(this.c);
     }
 }
 const game = new engine();
