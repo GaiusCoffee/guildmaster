@@ -54,9 +54,15 @@ body {
     max-height: 200px;
     overflow: auto;
 }
+.btn-sm {
+    font-size: x-small;
+}
 @media (min-width: 768px) {
     #terminalWrapper {
         max-height: initial;
+    }
+    .btn-sm {
+        font-size: small;
     }
 }
 #terminal {
@@ -80,7 +86,7 @@ body {
     padding: 0;
     display:inline;
 }
-#buttons li, #treasury li, #armory li, .guildmate li {
+#treasury li, #armory li, .guildmate li {
     display:inline;
 }
 .status {

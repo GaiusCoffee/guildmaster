@@ -29,5 +29,6 @@ class gameState {
     }
     updateView(city){
         $("#cityname").text(city.name);
+        
     }
 }
