@@ -57,6 +57,10 @@ body {
 .btn-sm {
     font-size: x-small;
 }
+.progress-bar {
+    -webkit-transition: width 0.2s ease;
+    transition: width 0.2s ease;
+}
 @media (min-width: 768px) {
     #terminalWrapper {
         max-height: initial;
