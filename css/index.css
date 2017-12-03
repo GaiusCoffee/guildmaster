@@ -58,8 +58,8 @@ body {
     font-size: x-small;
 }
 .progress-bar {
-    -webkit-transition: width 0.2s ease;
-    transition: width 0.2s ease;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
 }
 @media (min-width: 768px) {
     #terminalWrapper {
@@ -84,13 +84,13 @@ body {
     content: "~";
     padding-right: 2px;
 }
-#buttons, #treasury, #armory, #guildmates, .guildmate {
+#buttons, #board, #treasury, #armory, #guildmates, .guildmate {
     list-style: none;
     margin: 0;
     padding: 0;
     display:inline;
 }
-#treasury li, #armory li, .guildmate li {
+#board li, #treasury li, #armory li, .guildmate li {
     display:inline;
 }
 .status {

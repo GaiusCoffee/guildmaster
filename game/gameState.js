@@ -7,6 +7,8 @@ class gameState {
             this.load(this.newGame());
         }
         // Clear & Initialize View
+        $("#board").empty();
+        $("#boardLabel").css("display","none");
         $("#treasury").empty();
         $("#treasuryLabel").css("display","none");
         $("#armory").empty();

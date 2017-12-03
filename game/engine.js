@@ -2,8 +2,8 @@ class engine {
     constructor(){
         // Constants
         this.c = {};
-        this.c.updateInMS = 200;
-        this.c.updateEvents = 10;
+        this.c.updateInMS = 500;
+        this.c.updateEvents = 4;
         // Debug Button
         $("#btnTest").click(() => {this.t.log("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")});
         // UI
